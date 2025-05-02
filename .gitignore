@@ -1,3 +1,23 @@
-# created by virtualenv automatically
-*.idea/
-*.venv/
+# IDE configuration
+.idea
+*.iml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache
+__pycache__/
+
+# macOS Directory Configuration
+**/.DS_Store
+
+# Data Files
+*.csv
+*.xlsx
+*.xls
